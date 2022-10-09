@@ -1,0 +1,269 @@
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(244, 245, 247);
+}
+
+.sidebar-primary {
+  background-color: #0d28a6;
+  width: 70px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-primary .sp-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-primary .sp-row .sp-menu {
+  flex-basis: 1;
+  width: 70px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: white;
+}
+
+.sp-logo {
+  font-size: 34px;
+}
+
+.sp-menu.selected {
+  background-color: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+}
+
+.navbar {
+  margin-left: 70px;
+  height: 70px;
+  background-color: white;
+}
+
+.navbar .navbar-brand {
+  margin-left: 24px;
+}
+
+.nav-item.burger-button {
+  margin-left: 123px;
+}
+
+.nav-item.burger-button i {
+  font-size: 24px;
+}
+
+.profile-picture {
+  background-color: rgb(207, 212, 237);
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.navbar form input,
+.navbar form button {
+  border-radius: 2px;
+}
+
+.navbar form button {
+  border: solid 1px rgb(13, 40, 166);
+  color: rgb(13, 40, 166);
+}
+
+.main-div {
+  margin-left: 70px;
+  display: flex;
+}
+
+.main-div .sidebar-secondary {
+  background-color: white;
+  height: 92vh;
+  padding-top: 35px;
+}
+
+.sidebar-secondary p {
+  margin-left: 24px;
+  margin-bottom: 19px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(138, 138, 138);
+}
+
+.sidebar-secondary .list-group-item {
+  border: none;
+  background-color: rgb(207, 212, 237);
+  border-radius: 0px;
+  font-size: 14px;
+  padding-left: 24px;
+  font-weight: 700;
+}
+
+.main-content {
+  padding-top: 32px;
+  padding-inline: 25px;
+  flex-grow: 1;
+}
+
+.main-content .section-title {
+  justify-content: space-between;
+
+  margin-top: 11px;
+}
+
+.main-content .section-title h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.main-content .section-title button {
+  background-color: #0d28a6;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main-content .section-title button i {
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.section-categories {
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.section-categories button {
+  background-color: white;
+  border: 1px solid #aeb7e1;
+  padding: 8px 12px;
+  color: #aeb7e1;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+.section-categories button.selected {
+  background-color: #cfd4ed;
+  border: 1px solid #0d28a6;
+  border-radius: 2px;
+  color: #0d28a6;
+}
+
+.card-container {
+  margin-bottom: 24px;
+}
+
+.card-container .card {
+  padding: 24px;
+}
+.card-container .card .card-body {
+  padding: 0;
+}
+
+.card-img-top {
+  max-height: 160px;
+  max-width: 270px;
+  margin-inline: auto;
+  margin-block: 31px;
+}
+
+.card .card-body .car-name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card .card-body .car-price {
+  font-size: 16px;
+  font-weight: 700;
+  margin-block: 8px 16px;
+}
+
+.card .card-body .car-update {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.card .d-flex {
+  gap: 16px;
+}
+
+.card .d-flex .btn {
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 14px;
+}
+
+.card .d-flex .btn.delete-btn {
+  border: 1px solid #fa2c5a;
+  border-radius: 2px;
+  background-color: white;
+  color: #fa2c5a;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card .d-flex .btn.edit-btn {
+  border: none;
+  border-radius: 2px;
+  background-color: #5cb85f;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.form-container .row {
+  margin-bottom: 16px;
+}
+
+.form-button {
+  margin-top: 380px;
+  width: 150px;
+  gap: 15px;
+}
+
+.form-button .btn {
+  flex-basis: 1;
+  width: 70px;
+  border-radius: 2px;
+}
+
+.form-button .cancel-btn {
+  background-color: white;
+  color: #0d28a6;
+  border: 1px solid #0d28a6;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.form-button .save-btn {
+  background-color: #0d28a6;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px 12px;
+}
